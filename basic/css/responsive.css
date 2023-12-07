@@ -1,0 +1,14 @@
+/* Media query for screens with a maximum width of 600 pixels */
+@media screen and (max-width: 600px) {
+    /* Hide the column when the screen width is 600 pixels or less */
+    .main-column {
+        width: initial;
+        float:none;
+    }
+
+    .sidebar {
+        float:none;
+        width:initial;
+    }
+
+}

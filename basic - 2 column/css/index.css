@@ -1,0 +1,155 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#797979;
+    margin:0;
+    padding: 0 0 65px;
+}
+.text-sz-400 {font-weight: 400;}
+.text-yellow {color:#ffea5c;}
+.text-silver {color:#ffffffcc;}
+.text-white {color: #fff;}
+
+.silver-vertical-line {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    margin-right:10px;
+    margin-bottom: -5px;
+    border-right: 1px solid #ffffffcc;
+}
+
+.header a{color:#fff;text-decoration: none;}
+.header a:hover {color:#ffea5c;}
+
+
+.top-header {
+    background: #000;
+    height:50px;
+    line-height:50px;
+    padding-left:15px;
+    padding-right:15px;
+    overflow: hidden;
+}
+
+.pull-left {
+    float:left;
+}
+
+.pull-right {
+    float:right;
+}
+
+.inline-block {
+    display:inline-block;
+}
+
+.social-icons {
+    padding-left:50px;
+    height:50px;
+    float:right;
+}
+
+.social-icons a {
+    display:inline-block;
+    text-decoration: none;
+    width:40px;
+    height:50px;
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+    margin-right: -4px;
+}
+
+.social-icons a i{
+    display:block;
+    height:50px;
+    line-height: 50px;
+}
+
+
+.facebook-color {
+    background-color: #385DA9;
+    border-color: #385da9;
+}
+
+.social-icons a:hover {
+    background-color: yellow;
+    color:#000;
+    cursor: pointer;
+}
+
+.twitter-color {
+    background-color: #33ccff;
+    border-color: #33ccff;
+}
+
+.linkedin-color {
+    background-color: #0b84b3;
+    border-color: #0b84b3;
+}
+
+.insta-color {
+    background-color: #125688;
+    border-color: #125688;
+}
+
+.navbar {
+    padding-left:15px;
+    padding-right:15px;
+    background: #00000099;
+    height:95px;
+    line-height:95px;
+    overflow: hidden;
+}
+
+#logo-img {
+    margin-top:22px;
+    margin-right:30px;
+}
+
+.menu-bar a {
+    color:#fff;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right:20px;
+}
+
+.container {
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.main-column {
+    width: calc(100% - 240px);
+    float:left;
+    min-height:500px;
+}
+
+.sidebar {
+    float:right;
+    width:200px;
+    min-height: 260px;
+}
+
+
+
+
+.clear-fix {
+    clear:both;
+}
+
+p {text-align: justify}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    height:50px;
+    left:0;
+    bottom: 0;
+    width: 100%;
+}
